@@ -64,10 +64,12 @@ Drop Table If Exists EmployeeInfoBackup
 Select * Into EmployeeInfoBackup
 From EmployeeInfo
 
+---Updating EmployeeInfo Table
 Update EmployeeInfo
 Set Employee = 100
 Where Employee = 10
 
+---Fetching All Records
 Select *
 From EmployeeInfoBackup
 SELECT  [FirstName]
